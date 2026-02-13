@@ -1,0 +1,265 @@
+
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: Arial, sans-serif;
+
+}
+
+body {
+
+  background-color: #ecc8c8;
+
+  color: #333;
+
+  line-height: 1.6;
+
+  padding: 20px;
+
+}
+
+h1, h2, h3, h4 {
+
+  color: #4a3f35;
+
+  margin-bottom: 10px;
+
+}
+
+h1 {
+
+  text-align: center;
+
+  font-size: 2.0rem;
+
+  margin-bottom: 10px;
+
+}
+
+h2, h3, h4 {
+
+  margin-top: 20px;
+
+}
+
+main {
+
+  max-width: 900px;
+
+  margin: 0 auto;
+
+  padding: 10px;
+
+}
+
+section {
+
+  background-color: #eee;
+
+  padding: 20px;
+
+  margin-bottom: 20px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+}
+
+ul, ol {
+
+  margin-left: 20px;
+
+  margin-bottom: 35px;
+
+}
+
+ul ul, ol ol {
+
+  margin-left: 20px;
+
+  list-style-type: disc;
+
+}
+
+table {
+
+  width: 100%;
+
+  border-collapse: collapse;
+
+  margin-top: 15px;
+
+}
+
+table th, table td {
+
+  border: 1px solid #ccc;
+
+  padding: 8px;
+
+  text-align: left;
+
+}
+
+table th {
+
+  background-color: #e6d5c5;
+
+}
+
+img {
+
+  max-width: 350px;
+
+  border-radius: 10px;
+
+  margin: 5px 0 15px 0;
+
+  display: block;
+
+}
+
+nav {
+
+  background-color: #4a3f35;
+
+  padding: 10px;
+
+  text-align: center;
+
+  border-radius: 10px;
+
+  margin: 20px 0;
+
+}
+
+nav ul {
+
+  list-style: none;
+
+  display: flex;
+  
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 10px;
+
+}
+
+nav a {
+
+  color: #fff;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  transition: color 0.3s;
+
+}
+
+nav a:hover {
+
+  color: #f4a261;
+
+}
+
+footer {
+
+  text-align: center;
+
+  margin-top: 30px;
+
+  padding: 10px;
+
+  background-color: #4a3f35;
+
+  color: #fff;
+
+  border-radius: 10px;
+
+}
+
+footer a {
+
+  color: #f4a261;
+
+  text-decoration: none;
+
+}
+
+footer a:hover {
+
+  text-decoration: underline;
+
+}
+
+/* Form styling */
+
+form {
+
+  margin-top: 20px;
+
+}
+
+input[type="text"], select {
+
+  padding: 5px;
+
+  margin-top: 5px;
+
+  border-radius: 5px;
+
+  border: 1px solid #ccc;
+
+  width: 180px;
+
+}
+
+input[type="radio"], input[type="checkbox"] {
+
+  margin-right: 5px;
+
+}
+
+button {
+
+  margin-top: 10px;
+
+  padding: 8px 15px;
+
+  border: none;
+
+  border-radius: 5px;
+
+  background-color: #f57c00;
+
+  color: #;
+
+  cursor: pointer;
+
+  transition: background-color 0.3s;
+
+}
+
+button:hover {
+
+  background-color: #e07b39;
+
+}
+
+select[id="favourite-cat"] {
+  
+  width: 120px;
+  
+  background-color: #e0b9bd;
+  
+}
